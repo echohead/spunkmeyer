@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency     'colorize',  '>= 0'
-  s.add_runtime_dependency     'etc',       '>= 0'
   s.add_runtime_dependency     'sqlite3',   '>= 0'
   s.add_development_dependency 'rake',      '>= 0'
   s.add_development_dependency 'rspec',     '>= 0'
