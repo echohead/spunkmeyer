@@ -1,12 +1,12 @@
 require 'sqlite3'
 
-module Spunkmayer
+module Spunkmeyer
 
   module Chrome
 
     # currently supports only OSX.
     def self.cookie_path
-      "#{Spunkmayer::homedir}/Library/Application Support/Google/Chrome/Default/Cookies"
+      "#{Spunkmeyer::homedir}/Library/Application Support/Google/Chrome/Default/Cookies"
     end
 
     def self.cookies(domain)

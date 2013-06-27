@@ -1,6 +1,6 @@
 require 'rspec/core/rake_task'
 
-GEM_NAME = 'spunkmayer'
+GEM_NAME = 'spunkmeyer'
 spec = eval File.read("#{GEM_NAME}.gemspec")
 
 task :install do

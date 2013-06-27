@@ -1,6 +1,6 @@
-require 'spunkmayer/chrome'
+require 'spunkmeyer/chrome'
 
-module Spunkmayer
+module Spunkmeyer
 
   def self.cookies(domain)
     Chrome.cookies domain

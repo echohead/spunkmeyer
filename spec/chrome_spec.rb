@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Spunkmayer
+module Spunkmeyer
   module Chrome
     def self.cookie_path
       "#{File.expand_path File.dirname(__FILE__)}/fixtures/chrome.sqlite"
@@ -8,10 +8,10 @@ module Spunkmayer
   end
 end
 
-describe Spunkmayer::Chrome do
+describe Spunkmeyer::Chrome do
 
   it 'should grab cookies for a specified domain' do
-    Spunkmayer::Chrome.cookies('https://foo.com').should == {
+    Spunkmeyer::Chrome.cookies('https://foo.com').should == {
       "some other name" => {
         :host_key => ".foo.com",
         :path => "/some/other/path",

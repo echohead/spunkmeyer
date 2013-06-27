@@ -1,12 +1,12 @@
 #
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
-  s.name        = 'spunkmayer'
+  s.name        = 'spunkmeyer'
   s.version     = '0.0.1'
   s.platform    = Gem::Platform::RUBY
   s.authors     = [ 'Tim Miller' ]
   s.email       = [ '' ]
-  s.homepage    = 'https://github.com/echohead/spunkmayer'
+  s.homepage    = 'https://github.com/echohead/spunkmeyer'
   s.summary     = %q{extracts cookies from browser databases.}
   s.description = %q{extracts cookies from browser databases.}
 

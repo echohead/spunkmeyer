@@ -1,4 +1,4 @@
-# spunkmayer
+# spunkmeyer
 
 Grab cookies from your browser from ruby code.
 
@@ -8,12 +8,12 @@ Currently, the only supported browser is Chrome on OSX.
 
 # installation
 
-    gem install spunkmayer
+    gem install spunkmeyer
 
 # library usage
 
 ```ruby
-require 'spunkmayer'
+require 'spunkmeyer'
 
-puts Spunkmayer.cookies('http://google.com')
+puts Spunkmeyer.cookies('http://google.com')
 ```
