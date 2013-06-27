@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name        = 'spunkmeyer'
-  s.version     = '0.0.2'
+  s.version     = '0.0.4'
   s.platform    = Gem::Platform::RUBY
   s.authors     = [ 'Tim Miller' ]
   s.email       = [ '' ]
