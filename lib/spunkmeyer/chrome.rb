@@ -6,7 +6,7 @@ module Spunkmeyer
 
     # currently supports only OSX.
     def self.cookie_path
-      "#{Spunkmeyer::homedir}/Library/Application Support/Google/Chrome/Default/Cookies"
+      "#{Dir.home}/Library/Application Support/Google/Chrome/Default/Cookies"
     end
 
     def self.cookies(domain)

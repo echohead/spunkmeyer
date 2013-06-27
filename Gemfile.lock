@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    spunkmayer (0.0.1)
+    spunkmeyer (0.0.2)
       colorize
+      etc
       sqlite3
 
 GEM
@@ -10,6 +11,7 @@ GEM
   specs:
     colorize (0.5.8)
     diff-lcs (1.2.4)
+    etc (0.2.0)
     rake (10.1.0)
     rspec (2.13.0)
       rspec-core (~> 2.13.0)
@@ -27,4 +29,4 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
-  spunkmayer!
+  spunkmeyer!

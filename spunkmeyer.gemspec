@@ -2,7 +2,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |s|
   s.name        = 'spunkmeyer'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.platform    = Gem::Platform::RUBY
   s.authors     = [ 'Tim Miller' ]
   s.email       = [ '' ]
@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_runtime_dependency     'colorize',  '>= 0'
+  s.add_runtime_dependency     'etc',       '>= 0'
   s.add_runtime_dependency     'sqlite3',   '>= 0'
   s.add_development_dependency 'rake',      '>= 0'
   s.add_development_dependency 'rspec',     '>= 0'
