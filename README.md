@@ -15,5 +15,5 @@ Currently, the only supported browser is Chrome on OSX.
 ```ruby
 require 'spunkmayer'
 
-puts Spunkmayer.cookies 'http://google.com'
+puts Spunkmayer.cookies('http://google.com')
 ```
