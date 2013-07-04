@@ -1,4 +1,7 @@
 # spunkmeyer
+[![Gem Version](https://badge.fury.io/rb/spunkmeyer.png)][gem]
+
+[gem]: https://rubygems.org/gems/spunkmeyer
 
 Grab cookies from your browser from ruby code.
 
