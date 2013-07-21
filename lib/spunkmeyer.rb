@@ -1,4 +1,5 @@
 require 'spunkmeyer/chrome'
+require 'spunkmeyer/os'
 
 module Spunkmeyer
 

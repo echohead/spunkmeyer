@@ -6,7 +6,14 @@ module Spunkmeyer
 
     # currently supports only OSX.
     def self.cookie_path
-      "#{Dir.home}/Library/Application Support/Google/Chrome/Default/Cookies"
+      case Spunkmeyer.os
+      when :osx
+        "#{Dir.home}/Library/Application Support/Google/Chrome/Default/Cookies"
+      when :linux
+        "#{Dir.home}/.config/google-chrome/Default/Cookies"
+      else
+        raise 'Spunkmeyer::Chrome doesn\'t know this operating system.'
+      end
     end
 
     def self.cookies(domain)
