@@ -9,7 +9,7 @@ Grab cookies from your browser from ruby code.
 
 # requirements
 
-Currently, the only supported browser is Chrome on OSX.
+Currently, the only supported browser is Chrome on OSX and Linux.
 
 # installation
 
