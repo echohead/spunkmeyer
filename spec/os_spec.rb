@@ -2,12 +2,12 @@ require 'spec_helper'
 
 describe Spunkmeyer.os do
 
-  it 'deects osx' do
+  it 'detects osx' do
     stub_const 'RbConfig::CONFIG', {'host_os' => 'darwin12.0.0' }
     Spunkmeyer.os.should == :osx
   end
 
-  it 'deects linux' do
+  it 'detects linux' do
     stub_const 'RbConfig::CONFIG', {'host_os' => 'linux-gnu' }
     Spunkmeyer.os.should == :linux
   end
