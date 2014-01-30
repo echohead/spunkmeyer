@@ -4,7 +4,6 @@ module Spunkmeyer
 
   module Chrome
 
-    # currently supports only OSX.
     def self.cookie_path
       case Spunkmeyer.os
       when :osx
